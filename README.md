@@ -1,6 +1,6 @@
 # npmtest-date-format
 
-#### test coverage for  [date-format (v1.1.0)](https://github.com/nomiddlename/date-format#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-date-format.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-date-format) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-date-format.svg)](https://travis-ci.org/npmtest/node-npmtest-date-format)
+#### basic test coverage for  [date-format (v1.1.0)](https://github.com/nomiddlename/date-format#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-date-format.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-date-format) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-date-format.svg)](https://travis-ci.org/npmtest/node-npmtest-date-format)
 
 #### Formatting Date objects as strings since 2013
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-date-format/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-date-format/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-date-format/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-date-format/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-date-format/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-date-format/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-date-format/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-date-format/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-date-format/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-date-format/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-date-format/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-date-format/build/coverage.html/index.html)
 
@@ -83,7 +83,8 @@
         "pretest": "eslint lib/* test/*",
         "test": "mocha"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
